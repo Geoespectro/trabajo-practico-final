@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./imagenes/logo.png">
+    <title>Proyecto-Final</title>
+</head>
+<body class="ppal">
+    <nav>
+        <a href="./index.html">
+            <svg width="200" height="80">
+                <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#F0E9D2"></rect>
+                <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#495579"></rect>
+                <polygon points="55 45 ,95 45,115 62,30 62" fill="#F0E9D2" id="tec1"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#495579" id="tec2"></polygon>
+            </svg>
+        </a>
+        <ul class="menu">
+            <li class="item-menu">
+                <a class="item-link" href="./historia.html">HISTORIA</a>
+            </li>
+            <li class="item-menu">
+                <a class="item-link" href="./juego.html">JUGUEMOS</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1>JUGUEMOS UN POCO</h1>
+    </header>
+    <main>
+        <h2>Armemos el rompecabezas y veamos que imagen es !!!</h2>
+        <section class="juego">
+            <div class="cajas">
+                <div class="caja" id="cajasoltar">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+                <div class="caja" id="cajasoltar2">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+                <div class="caja" id="cajasoltar3">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+            </div>
+            <div id="cajaimagenes">
+                <img id="imagen1" src="./imagenes/rompe3.png" alt="imagen-rompecabezas">
+                <img id="imagen2" src="./imagenes/rompe2.png" alt="imagen-rompecabezas">   
+                <img id="imagen3" src="./imagenes/rompe1.png" alt="imagen-rompecabezas">
+            </div>
+        </section>
+        <button onclick="reiniciar()" class="botonesVideo reinicio">Reiniciar</button>
+    </main>
+    <footer>
+        <div class="footer">
+            <img class="logo" src="./imagenes/logo.png" alt="logo">
+            <div class="footer-titles">
+                <h3 class="titulo-foot">PROGRAMACIÓN</h3>
+                <h3 class="titulo-foot">E</h3>
+                <h3 class="titulo-foot">HISTORIA</h3>
+            </div>
+        </div>
+        <p>Proyecto-Final - © 2023 J.C.Q</p>
+    </footer>
+    <script src="./scriptJuego.js"></script>
+</body>
+</html>
+        
+            
+            
